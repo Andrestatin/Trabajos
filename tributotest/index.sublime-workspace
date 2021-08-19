@@ -1,0 +1,300 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"u",
+				"url()\tbackground-image"
+			],
+			[
+				"s",
+				"section\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"f",
+				"flex-end\talign-items"
+			],
+			[
+				"fl",
+				"flex-end\tjustify-content"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"ro",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"a",
+				"space-around\tjustify-content"
+			],
+			[
+				"fo",
+				"font-weight\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"he",
+				"line-height"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"i",
+				"inline-block\tdisplay"
+			],
+			[
+				"st",
+				"sticky\tposition"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"te",
+				"text-transform\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"H",
+				"H1\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"theme ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 168.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/User/Desktop/landing page/styles/styles.css",
+		"/C/Users/User/Desktop/landing page/styles/navestyle.css",
+		"/C/Users/User/Desktop/survey-form/stylessurvey.css",
+		"/C/Users/User/Desktop/landing page/index.html",
+		"/C/Users/User/Desktop/diseño web/index.html",
+		"/C/Users/User/Desktop/survey-form/index.html",
+		"/C/Users/User/Desktop/landing page/images/LogoCasaTomate.jpg",
+		"/C/Users/User/Desktop/diseño web/public/styles/navestil.css",
+		"/C/Users/User/Desktop/tributotest/styles/styles.css",
+		"/C/Users/User/Desktop/tributotest/index.html",
+		"/C/Users/User/Desktop/diseño web/public/styles/metodoBEM.css",
+		"/C/Users/User/Desktop/diseño web/public/styles/contact.css",
+		"/C/Users/User/Desktop/diseño web/contacto.html",
+		"/C/Users/User/Desktop/diseño web/Fotos Gatos.html",
+		"/C/Users/User/Desktop/diseño web/Quienesomos.html",
+		"/C/Users/User/Desktop/diseño web/public/styles/quienesomos.css",
+		"/C/Users/User/Desktop/diseño web/normalize.css",
+		"/C/Users/User/Desktop/diseño web/contact.css",
+		"/C/Users/User/Desktop/diseño web/quienesomos.css",
+		"/C/Users/User/Desktop/diseño web/metodoBEM.css",
+		"/C/Users/User/Desktop/diseño web/selectores.css",
+		"/C/Users/User/Desktop/diseño web/index2.html",
+		"/C/Users/User/Desktop/diseño web/estilos.css",
+		"/C/Users/User/Desktop/diseño web/especificidad.css"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 134.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

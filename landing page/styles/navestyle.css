@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#header{
+	background-image: url(../images/fique.jpg);
+	opacity: 0.9;
+	position: sticky;
+	width: 100vw;
+	height: 20vh;
+	top:0;
+}
+@media(max-width: 1000px){
+	#header{
+		position: relative;
+		height: 15vh;
+		
+	}
+}
+@media(max-width: 1000px){
+	#logoCasa{
+		width: 60%;
+		display: inline-block;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+.logo{
+	width: 20vw;
+	position: absolute;
+	left: 3em;
+	top: 0.7em; 
+	 
+}
+
+@media(max-width:1000px){
+	.logo{
+		position: relative;
+		top: -4vh;
+	}
+} 
+#nav-bar{ 
+	font-family:  'Fredoka One', Indie Flower;
+	font-weight: 1000;
+	padding:7.5vh;
+	
+}
+
+@media(max-width:1000px){
+	#nav-bar{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding: 7.5vh 0;
+	}
+}
+#nav-bar ul{
+	padding-left: 300px;
+	font-size: 2.5vw;
+	list-style: none;
+	padding-right: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+@media(max-width: 1000px){
+	#nav-bar ul{
+	font-size: 4vw;
+	line-height: 2em;
+	padding: 0 8vw 0 8vw;
+	flex-direction: column;
+	align-items: flex-end;
+	}
+}
+
+#nav-bar ul li a{
+	margin: 50px;
+
+}
+@media(max-width: 1000px){
+	#nav-bar ul li a{
+	margin: 0;
+	}
+}
+#nav-bar ul li a:hover{ 
+	color: #ff6f2c;
+	background-image: url("https://p4.wallpaperbetter.com/wallpaper/971/426/423/cat-kitten-whiskers-face-wallpaper-preview.jpg");
+	background-size: 18rem;
+	border-radius: 40%;
+	padding: 0.9em 0;	
+}
+@media(max-width: 1000px){
+	#nav-bar ul li a:hover{
+	background-image: url("https://www.xtrart.es/wp-content/uploads/2019/02/Origenes-del-Pop-Art.jpg");
+	background-size: 25vw;
+	border-radius: 100%;
+	padding: 2vw 0;
+	}
+}
+
+.nav-link{
+	text-decoration: none; 
+	color: #F6E80B;
+}
+.nav-link-1{
+	text-decoration: none;
+	color: #b11;
+} 
+@media(max-width: 1000px){
+	.nav-link,.nav-link-1{
+		color: #b11
+	}
+}
+

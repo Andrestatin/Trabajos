@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#welcome-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height: 100vh;
+	background: #ffce9b;
+}
+.presentation{
+	margin-top: 27vh;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	width: 38vw;
+	height: 25vh;
+	border:1px solid #ffffff;
+	z-index: 10;
+}
+#tituloh1{
+	padding-top: 3.5em;
+	font-size: 3em;
+	font-family: 'Special Elite', cursive;
+}
+.presentation p{
+	text-transform: capitalize;
+	font-family: 'Inconsolata', monospace;
+	font-size: 2em;
+	padding-bottom: 5em;
+}
+.violin{
+top: 27vh;	
+position: absolute;
+height: 65vh;
+transform: rotate(-45deg);
+opacity: .8;
+}
+@media(max-width: 1000px){
+	#header{
+	}
+}
+#navbar{
+	width: 100vw;
+	position: fixed; 
+	font-family: 'Quicksand', sans-serif;
+	padding:4.7vh;
+	background: #a83100;
+	z-index: 20;
+}
+@media(max-width:1000px){
+	#navbar{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding: 6vh 0;
+	}
+}
+#navbar ul{
+	padding-left: 300px;
+	font-size: 2.5vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style: none;
+}
+@media(max-width: 1000px){
+	#navbar ul{
+	font-size: 4vw;
+	line-height: 2em;
+	padding: 0 8vw 0 8vw;
+	flex-direction: column;
+	align-items: flex-end;
+	}
+}
+
+#navbar ul li a{
+	margin: 50px;
+	transition: .5s;
+}
+@media(max-width: 1000px){
+	#navbar ul li a{
+	margin: 0;
+	}
+}
+#navbar ul li a:hover{ 
+	color: #ffffff;
+	background-image: url("https://image.freepik.com/foto-gratis/fondo-tecnologia-abstracta-codigo-programacion_34663-61.jpg");
+	background-size: 18rem;
+	border-radius: 4%;
+	padding: 0.8em 0;	
+}
+@media(max-width: 1000px){
+	#nav-bar ul li a:hover{
+	background-image: url();
+	background-size: 25vw;
+	border-radius: 100%;
+	padding: 1vw 0;
+
+	}
+}
+
+.nav-link{
+	text-decoration: none; 
+	color: #ffa600;
+}
+.nav-link-1{
+	text-decoration: none;
+	color: #b11;
+} 
+@media(max-width: 1000px){
+	.nav-link,.nav-link-1{
+		color: #ffa600
+	}
+}
+#projects{
+	background: #993c00;
+	height: 60vh;
+}
+h2{
+	text-align: center;
+	font-size: 3rem;
+}
+.grid-project{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows: 30px;
+	
+
+}
+.grid-preview-image{
+	height: 15rem;
+	width: 20rem;
+}
+.project-title{
+	display: flex;
+	align-items: flex-end;
+}
+
+

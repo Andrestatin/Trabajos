@@ -1,0 +1,95 @@
+*{
+  margin:0px;
+  padding:0%;
+
+}
+body{
+	background: #ff6f2c;
+}
+
+header{
+	text-transform: uppercase;
+	font-family: Indie Flower, sans serif;
+ 	text-align: center;
+ 	background: #02C2DB;
+ 	padding: 20px;
+ 	margin: 7vh 10vw 2vh;
+ 	border-radius: 3rem;
+}
+#survey-form{
+	box-shadow: 0 0 30px;
+  	border: 1px solid #E3B84B;
+	margin: 3vh 10vw;
+	line-height: 3em;
+	background-color: #02C2DB;
+	font-size: 1.4em;
+	font-family: Fredoka One, sans serif;
+	color: #ffe098;
+}
+#title{
+	font-size: 3em;
+	text-shadow: 2px 4px 10px;
+	color: #ffdc67 ; 
+}
+#subtitle{
+	font-size: 1.5em;
+	color: #a90000;
+}
+label{
+display: block;
+}
+#dropdown{
+	font-family: arial, sans serif ;
+	font-size: 1em;
+	color: #d8dbff;
+	text-align: center;
+	text-transform: capitalize;
+	text-align-last: center;
+}
+
+.boxes{
+	background: #FFFFFF;
+	height: 6vh;
+	width: 70%; 
+	margin-left:2vw;
+	border: 1px solid #E3B84B ;
+	border-radius: 3em;
+}
+.description{
+margin: 1.5rem;
+}
+#submit:hover{
+	background: #d6adff;
+	color: #feee24;
+}
+#submit{
+	font-family: Fredoka One, arial;
+	color: #d6adff;
+	font-size: 1em;
+	display: block;
+	margin: 0 auto 10vh;
+	padding: 7px;
+	width:13vw;
+	height: 7vh;
+	background: #feee24;
+	border: 1px solid #E3B84B;
+	border-radius: 3em;
+}
+ textarea{
+	min-height: 110px;
+	min-width: 94%;
+	resize: vertical;
+}	
+
+ input::placeholder{
+	font-family: arial, sans serif;
+	font-size: 1.5em;
+	color: #d8dbff;
+	text-align: center;
+}
+ textarea::placeholder{
+	font-family: arial, sans serif;
+	font-size: 1.5em;
+	color: #d8dbff;
+	text-align: center;
+}

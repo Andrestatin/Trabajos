@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Andrés Pulido">
+  <meta name="copyright" content="">
+  <title>CASA TOMATE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stylessurvey.css">
+  <body>
+    <div id="container">
+      <header>
+        <h1 id="title"> encuesta casa tomate</h1>
+        <p id="subtitle">permitenos conocerte y déjanos tu opinión</p>
+      </header>
+    <form id="survey-form">
+      <div id="styles">
+        <label class="description" id="name-label" for="name">
+         Nombre
+        </label>
+        <input class="boxes" type="text" name="name" id="name" required placeholder="Ejemplo: Andres Pulido">
+      </div>
+      <div id="styles2">
+        <label class="description" id="email-label" for="email">
+         Correo Electrónico
+        </label>
+        <input class="boxes" type="email" name="email" id="email"  required placeholder="Ejemplo:casatomate@gmail.com">
+      </div> 
+      <div id="styles3">
+        <label class="description" id="number-label" for="telefono">
+         Teléfono
+        </label>
+        <input class="boxes" type="tel" name="number" id="telefono" pattern="[0-9]{10}" required placeholder="Ejemplo: 3001112222">
+      </div>
+      <div id="styles4">
+        <label class="description" id="age" for="number">
+        Edad
+        </label>
+        <input type="number" name="age" class="boxes" id="number" min="12" max="90" required placeholder="Mayor de 12 años">
+      </div>
+      <div id="styles5">
+        <p class="description">En cual sector de la ciudad estas?</p>
+        <select class="boxes" id="dropdown" name="role" required>
+          <option value="">(por favor seleccione una ubicación)</option>
+          <option class="ub">suroriente</option>         
+          <option class="ub">suroccidente</option>
+          <option class="ub">centro</option>
+          <option class="ub">nororiente</option>
+          <option class="ub">noroccidente</option>
+          <option class="ub">norte</option>
+          <option class="ub">prefiero no decirlo</option>
+          </select>
+      </div>
+      <div id="styles6">
+        <p class="description">con cual de estos estilos te sientes más identificado?</p>
+        <label for="rustico">
+          <input class="description" type="radio" id="rustico" name="preferencia" value="rustico">Rústico
+        </label>
+        <label for="vintage">
+          <input class="description" type="radio" id="vintage" name="preferencia" value="vintage">Vintage
+        </label>
+        <label for="popart">
+          <input class="description" type="radio" id="popart" name="preferencia" value="popart">Pop-Art
+        </label>
+        <label for="deko">
+          <input class="description" type="radio" id="deko" name="preferencia" value="deko">Deko
+        </label>
+      </div>
+      <div id="styles7">
+        <p class="description">elige los elementos con los que quisieras armar el espacio de tus gatitos?</p>
+        <label>
+          <input class="description" name="suvey-packs" value="rascador" type="checkbox">Rascador
+        </label>
+        <label>
+          <input class="description" name="suvey-packs" value="gatera" type="checkbox">gatera
+        </label>
+        <label>
+          <input class="description" name="suvey-packs" value="modulo de tres ventanas" type="checkbox">modulo de ventanas
+        </label>
+        <label>
+          <input class="description" name="suvey-packs" value="repisas" type="checkbox">repisas
+        </label>
+        <label>
+          <input class="description" name="suvey-packs" value="puente" type="checkbox">puente
+        </label>
+      </div>
+      <div id="styles8">
+        <p class="description">que otra cosa te gustaría para tus gatos?</p>
+        <textarea class="boxes" id="comments" name="comentarios" placeholder="déjanos tus comentarios aquí.."></textarea>
+      </div>
+      <div id="submit-button">
+        <button type="submit" id="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+
+  
